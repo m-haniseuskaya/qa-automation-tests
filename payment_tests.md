@@ -14,3 +14,8 @@
 - Input: Expired card, amount valid
 - Expected: Declined, error "Card expired"
 - Status: Ready for automation
+
+## Test Case 4: Zero Amount
+- Input: Amount = 0
+- Expected: Validation error "Amount must be greater than 0"
+- Status: Ready for automation
