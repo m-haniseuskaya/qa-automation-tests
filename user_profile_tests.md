@@ -43,3 +43,13 @@
 - **Expected Result:** Changes discarded, profile reverts to original
 - **Priority:** Medium
 - **Status:** Ready for automation
+
+## Test Case 5: Reject Invalid Email Format
+- **Precondition:** User is on Profile Settings
+- **Steps:**
+  1. Click "Edit Email"
+  2. Enter invalid email "notanemail"
+  3. Click "Save"
+- **Expected Result:** Error message "Invalid email format" shown, profile not updated
+- **Priority:** High
+- **Status:** Ready for automation
