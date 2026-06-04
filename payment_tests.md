@@ -1,0 +1,11 @@
+# Payment Feature Test Cases
+
+## Test Case 1: Valid Payment
+- Input: Card number valid, amount valid
+- Expected: Payment successful, confirmation shown
+- Status: Ready for automation
+
+## Test Case 2: Declined Card
+- Input: Declined card, amount valid
+- Expected: Error message shown
+- Status: Ready for automation
