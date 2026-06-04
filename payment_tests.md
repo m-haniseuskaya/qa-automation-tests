@@ -9,3 +9,8 @@
 - Input: Declined card, amount valid
 - Expected: Error message shown
 - Status: Ready for automation
+
+## Test Case 3: Expired Card
+- Input: Expired card, amount valid
+- Expected: Declined, error "Card expired"
+- Status: Ready for automation
